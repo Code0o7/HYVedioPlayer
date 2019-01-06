@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1E2BA021E24EF2004C5267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E2B9F21E24EF2004C5267 /* AppDelegate.m */; };
+		FF1E2BA321E24EF2004C5267 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E2BA221E24EF2004C5267 /* ViewController.m */; };
+		FF1E2BA621E24EF2004C5267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1E2BA421E24EF2004C5267 /* Main.storyboard */; };
+		FF1E2BA821E24EF3004C5267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1E2BA721E24EF3004C5267 /* Assets.xcassets */; };
+		FF1E2BAB21E24EF3004C5267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1E2BA921E24EF3004C5267 /* LaunchScreen.storyboard */; };
+		FF1E2BAE21E24EF3004C5267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E2BAD21E24EF3004C5267 /* main.m */; };
+		FF1E2BB821E24EF3004C5267 /* HYVedioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E2BB721E24EF3004C5267 /* HYVedioPlayerTests.m */; };
+		FF1E2BC321E24EF4004C5267 /* HYVedioPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E2BC221E24EF4004C5267 /* HYVedioPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1E2BB421E24EF3004C5267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1E2B9321E24EF2004C5267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1E2B9A21E24EF2004C5267;
+			remoteInfo = HYVedioPlayer;
+		};
+		FF1E2BBF21E24EF4004C5267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1E2B9321E24EF2004C5267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1E2B9A21E24EF2004C5267;
+			remoteInfo = HYVedioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1E2B9B21E24EF2004C5267 /* HYVedioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYVedioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E2B9E21E24EF2004C5267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF1E2B9F21E24EF2004C5267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF1E2BA121E24EF2004C5267 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF1E2BA221E24EF2004C5267 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF1E2BA521E24EF2004C5267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1E2BA721E24EF3004C5267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1E2BAA21E24EF3004C5267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF1E2BAC21E24EF3004C5267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1E2BAD21E24EF3004C5267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1E2BB321E24EF3004C5267 /* HYVedioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYVedioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E2BB721E24EF3004C5267 /* HYVedioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYVedioPlayerTests.m; sourceTree = "<group>"; };
+		FF1E2BB921E24EF3004C5267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1E2BBE21E24EF3004C5267 /* HYVedioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYVedioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E2BC221E24EF4004C5267 /* HYVedioPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYVedioPlayerUITests.m; sourceTree = "<group>"; };
+		FF1E2BC421E24EF4004C5267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1E2B9821E24EF2004C5267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BB021E24EF3004C5267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BBB21E24EF3004C5267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1E2B9221E24EF2004C5267 = {
+			isa = PBXGroup;
+			children = (
+				FF1E2B9D21E24EF2004C5267 /* HYVedioPlayer */,
+				FF1E2BB621E24EF3004C5267 /* HYVedioPlayerTests */,
+				FF1E2BC121E24EF4004C5267 /* HYVedioPlayerUITests */,
+				FF1E2B9C21E24EF2004C5267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1E2B9C21E24EF2004C5267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E2B9B21E24EF2004C5267 /* HYVedioPlayer.app */,
+				FF1E2BB321E24EF3004C5267 /* HYVedioPlayerTests.xctest */,
+				FF1E2BBE21E24EF3004C5267 /* HYVedioPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1E2B9D21E24EF2004C5267 /* HYVedioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E2B9E21E24EF2004C5267 /* AppDelegate.h */,
+				FF1E2B9F21E24EF2004C5267 /* AppDelegate.m */,
+				FF1E2BA121E24EF2004C5267 /* ViewController.h */,
+				FF1E2BA221E24EF2004C5267 /* ViewController.m */,
+				FF1E2BA421E24EF2004C5267 /* Main.storyboard */,
+				FF1E2BA721E24EF3004C5267 /* Assets.xcassets */,
+				FF1E2BA921E24EF3004C5267 /* LaunchScreen.storyboard */,
+				FF1E2BAC21E24EF3004C5267 /* Info.plist */,
+				FF1E2BAD21E24EF3004C5267 /* main.m */,
+			);
+			path = HYVedioPlayer;
+			sourceTree = "<group>";
+		};
+		FF1E2BB621E24EF3004C5267 /* HYVedioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E2BB721E24EF3004C5267 /* HYVedioPlayerTests.m */,
+				FF1E2BB921E24EF3004C5267 /* Info.plist */,
+			);
+			path = HYVedioPlayerTests;
+			sourceTree = "<group>";
+		};
+		FF1E2BC121E24EF4004C5267 /* HYVedioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E2BC221E24EF4004C5267 /* HYVedioPlayerUITests.m */,
+				FF1E2BC421E24EF4004C5267 /* Info.plist */,
+			);
+			path = HYVedioPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1E2B9A21E24EF2004C5267 /* HYVedioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E2BC721E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayer" */;
+			buildPhases = (
+				FF1E2B9721E24EF2004C5267 /* Sources */,
+				FF1E2B9821E24EF2004C5267 /* Frameworks */,
+				FF1E2B9921E24EF2004C5267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYVedioPlayer;
+			productName = HYVedioPlayer;
+			productReference = FF1E2B9B21E24EF2004C5267 /* HYVedioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1E2BB221E24EF3004C5267 /* HYVedioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E2BCA21E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayerTests" */;
+			buildPhases = (
+				FF1E2BAF21E24EF3004C5267 /* Sources */,
+				FF1E2BB021E24EF3004C5267 /* Frameworks */,
+				FF1E2BB121E24EF3004C5267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1E2BB521E24EF3004C5267 /* PBXTargetDependency */,
+			);
+			name = HYVedioPlayerTests;
+			productName = HYVedioPlayerTests;
+			productReference = FF1E2BB321E24EF3004C5267 /* HYVedioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF1E2BBD21E24EF3004C5267 /* HYVedioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E2BCD21E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayerUITests" */;
+			buildPhases = (
+				FF1E2BBA21E24EF3004C5267 /* Sources */,
+				FF1E2BBB21E24EF3004C5267 /* Frameworks */,
+				FF1E2BBC21E24EF3004C5267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1E2BC021E24EF4004C5267 /* PBXTargetDependency */,
+			);
+			name = HYVedioPlayerUITests;
+			productName = HYVedioPlayerUITests;
+			productReference = FF1E2BBE21E24EF3004C5267 /* HYVedioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1E2B9321E24EF2004C5267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MrChen;
+				TargetAttributes = {
+					FF1E2B9A21E24EF2004C5267 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FF1E2BB221E24EF3004C5267 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF1E2B9A21E24EF2004C5267;
+					};
+					FF1E2BBD21E24EF3004C5267 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF1E2B9A21E24EF2004C5267;
+					};
+				};
+			};
+			buildConfigurationList = FF1E2B9621E24EF2004C5267 /* Build configuration list for PBXProject "HYVedioPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1E2B9221E24EF2004C5267;
+			productRefGroup = FF1E2B9C21E24EF2004C5267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1E2B9A21E24EF2004C5267 /* HYVedioPlayer */,
+				FF1E2BB221E24EF3004C5267 /* HYVedioPlayerTests */,
+				FF1E2BBD21E24EF3004C5267 /* HYVedioPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1E2B9921E24EF2004C5267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E2BAB21E24EF3004C5267 /* LaunchScreen.storyboard in Resources */,
+				FF1E2BA821E24EF3004C5267 /* Assets.xcassets in Resources */,
+				FF1E2BA621E24EF2004C5267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BB121E24EF3004C5267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BBC21E24EF3004C5267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1E2B9721E24EF2004C5267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E2BA321E24EF2004C5267 /* ViewController.m in Sources */,
+				FF1E2BAE21E24EF3004C5267 /* main.m in Sources */,
+				FF1E2BA021E24EF2004C5267 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BAF21E24EF3004C5267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E2BB821E24EF3004C5267 /* HYVedioPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E2BBA21E24EF3004C5267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E2BC321E24EF4004C5267 /* HYVedioPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1E2BB521E24EF3004C5267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1E2B9A21E24EF2004C5267 /* HYVedioPlayer */;
+			targetProxy = FF1E2BB421E24EF3004C5267 /* PBXContainerItemProxy */;
+		};
+		FF1E2BC021E24EF4004C5267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1E2B9A21E24EF2004C5267 /* HYVedioPlayer */;
+			targetProxy = FF1E2BBF21E24EF4004C5267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1E2BA421E24EF2004C5267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1E2BA521E24EF2004C5267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1E2BA921E24EF3004C5267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1E2BAA21E24EF3004C5267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1E2BC521E24EF4004C5267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF1E2BC621E24EF4004C5267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1E2BC821E24EF4004C5267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1E2BC921E24EF4004C5267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF1E2BCB21E24EF4004C5267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYVedioPlayer.app/HYVedioPlayer";
+			};
+			name = Debug;
+		};
+		FF1E2BCC21E24EF4004C5267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYVedioPlayer.app/HYVedioPlayer";
+			};
+			name = Release;
+		};
+		FF1E2BCE21E24EF4004C5267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYVedioPlayer;
+			};
+			name = Debug;
+		};
+		FF1E2BCF21E24EF4004C5267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYVedioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mychen.test.HYVedioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYVedioPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1E2B9621E24EF2004C5267 /* Build configuration list for PBXProject "HYVedioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E2BC521E24EF4004C5267 /* Debug */,
+				FF1E2BC621E24EF4004C5267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1E2BC721E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E2BC821E24EF4004C5267 /* Debug */,
+				FF1E2BC921E24EF4004C5267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1E2BCA21E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E2BCB21E24EF4004C5267 /* Debug */,
+				FF1E2BCC21E24EF4004C5267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1E2BCD21E24EF4004C5267 /* Build configuration list for PBXNativeTarget "HYVedioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E2BCE21E24EF4004C5267 /* Debug */,
+				FF1E2BCF21E24EF4004C5267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1E2B9321E24EF2004C5267 /* Project object */;
+}
